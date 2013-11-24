@@ -33,7 +33,7 @@ Now, from within a `.scss` file in your project, you can `@import` Bourbon and N
 
 ```scss
 @import "components/harp-bourbon/scss/bourbon";
-@import "components/harp-bourbon/scss/neat";
+@import "components/harp-neat/scss/neat";
 ```
 
 # Resources
