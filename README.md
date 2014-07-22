@@ -9,10 +9,11 @@
 
 ## Install
 
-To install Bourbon and Neat, run the following command from the root of your harp project:
+To install Neat, you can [download this repository](https://github.com/harp/neat/archive/master.zip) or use the [Component](http://component.io) package manager.
 
 ```bash
-harp install neat
+npm install -g component
+component install harp/neat
 ```
 
 Your project will look something like this…
@@ -29,14 +30,14 @@ myproject/                  <-- your project root (or public dir if in framework
 
 ## Link
 
-Now, from within a `.scss` file in your project, you can `@import` Bourbon and Neat:
+Now, from within an `.scss` file in your project, you can `@import` Bourbon and Neat:
 
 ```scss
 @import "components/harp-bourbon/scss/bourbon";
 @import "components/harp-neat/scss/neat";
 ```
 
-# Resources
+## Resources
 
 * [Harp documentation](http://harpjs.com/docs)
 * [Sass documentation](http://sass-lang.com/documentation/file.SASS_REFERENCE.html)
